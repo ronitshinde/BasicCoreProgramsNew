@@ -6,7 +6,7 @@ namespace BasicsCorePrograms
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin \n2.LeapYear \n3.PowerOfTwo \n4.HarmonicNumber \n5.QuotientAndRemainder");
+            Console.WriteLine("1.FlipCoin \n2.LeapYear \n3.PowerOfTwo \n4.HarmonicNumber \n5.QuotientAndRemainder \n6.SwapTwoNumbers");
             Console.WriteLine("Enter a option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -34,6 +34,11 @@ namespace BasicsCorePrograms
                 case 5:
                     QuotientAndRemainder calculate = new QuotientAndRemainder();
                     calculate.QuoAndRem();
+                    Console.ReadLine();
+                    break;
+                case 6:
+                    SwapTwoNumbers swap = new SwapTwoNumbers();
+                    swap.SwapNumbers();
                     Console.ReadLine();
                     break;
             }
