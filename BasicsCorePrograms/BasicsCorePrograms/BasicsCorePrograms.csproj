@@ -46,6 +46,7 @@
     <Compile Include="EvenAndOddCheck.cs" />
     <Compile Include="FlipCoins.cs" />
     <Compile Include="HarmonicNumber.cs" />
+    <Compile Include="LargestOfNumbers.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="Program.cs" />

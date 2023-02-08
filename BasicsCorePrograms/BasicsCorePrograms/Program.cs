@@ -6,7 +6,7 @@ namespace BasicsCorePrograms
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin \n2.LeapYear \n3.PowerOfTwo \n4.HarmonicNumber \n5.QuotientAndRemainder \n6.SwapTwoNumbers \n7.EvenAndOddCheck \n8.VowelsAndConsonants");
+            Console.WriteLine("1.FlipCoin \n2.LeapYear \n3.PowerOfTwo \n4.HarmonicNumber \n5.QuotientAndRemainder \n6.SwapTwoNumbers \n7.EvenAndOddCheck \n8.VowelsAndConsonants \n9.LargestOfNumbers");
             Console.WriteLine("Enter a option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -49,6 +49,11 @@ namespace BasicsCorePrograms
                 case 8:
                     VowelsAndConsonants voices = new VowelsAndConsonants();
                     voices.Alphabet();
+                    Console.ReadLine();
+                    break;
+                case 9:
+                    LargestOfNumbers large = new LargestOfNumbers();
+                    large.Largestnum();
                     Console.ReadLine();
                     break;
             }
