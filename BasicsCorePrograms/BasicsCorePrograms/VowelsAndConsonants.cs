@@ -8,16 +8,16 @@ namespace BasicsCorePrograms
         {
             Console.WriteLine("Enter any Character : ");
 
-            char Alp = Convert.ToChar(Console.ReadLine());
+            char word = Convert.ToChar(Console.ReadLine());
 
-            if (Alp == 'a' || Alp == 'e' || Alp == 'i' || Alp == 'o' || Alp == 'u' ||
-                  Alp == 'A' || Alp == 'E' || Alp == 'I' || Alp == 'O' || Alp == 'U')
+            if (word == 'a' || word == 'e' || word == 'i' || word == 'o' || word == 'u' ||
+                  word == 'A' || word == 'E' || word == 'I' || word == 'O' || word == 'U')
             {
-                Console.WriteLine(Alp + " Alphabet is vowels ");
+                Console.WriteLine(word + " Alphabet is vowels ");
             }
-            else if ((Alp >= 'a' && Alp <= 'z') || (Alp >= 'A' && Alp <= 'Z'))
+            else if ((word >= 'a' && word <= 'z') || (word >= 'A' && word <= 'Z'))
             {
-                Console.WriteLine(Alp + " Alphabet is Consonant ");
+                Console.WriteLine(word + " Alphabet is Consonant ");
             }
         }
     }
