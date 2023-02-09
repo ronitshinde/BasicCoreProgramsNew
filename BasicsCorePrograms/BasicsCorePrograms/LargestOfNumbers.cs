@@ -6,37 +6,37 @@ namespace BasicsCorePrograms
     {
         public void Largestnum()
         {
-            int num1, num2, num3;
+            int numOne, numTwo, numThree;
 
             Console.WriteLine("Print the greatest number of 3 numbers");
 
             Console.WriteLine("Enter the 1st number");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            numOne = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter the 2nd number");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            numTwo = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter the 3rd number");
-            num3 = Convert.ToInt32(Console.ReadLine());
+            numThree = Convert.ToInt32(Console.ReadLine());
 
-            if (num1 > num2)
+            if (numOne > numTwo)
             {
-                if (num1 > num3)
+                if (numOne > numThree)
                 {
-                    Console.WriteLine("Number 1st is greater : " + num1);
+                    Console.WriteLine("Number 1st is greater : " + numOne);
                 }
                 else
                 {
-                    Console.WriteLine("Number 3rd is greater : " + num3);
+                    Console.WriteLine("Number 3rd is greater : " + numThree);
                 }
             }
-            else if (num2 > num3)
+            else if (numTwo > numThree)
             {
-                Console.WriteLine("Number 2nd is greater : " + num2);
+                Console.WriteLine("Number 2nd is greater : " + numTwo);
             }
             else
             {
-                Console.WriteLine("Number 3rd is greater : " + num3);
+                Console.WriteLine("Number 3rd is greater : " + numThree);
             }
         }
     }
