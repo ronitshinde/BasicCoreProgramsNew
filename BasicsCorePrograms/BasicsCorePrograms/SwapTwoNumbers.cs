@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace BasicsCorePrograms
 {
@@ -6,17 +6,17 @@ namespace BasicsCorePrograms
     {
         public void SwapNumbers()
         {
-            Console.WriteLine("Enter value of a");
-            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter value of first number");
+            int numOne = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter value of b");
-            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter value of second number");
+            int numTwo = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Value before swap a = " + a + ", b = " + b);
-            a = a * b;
-            b = a / b;
-            a = a / b;
-            Console.WriteLine("Value after swap a = " + a + ", b = " + b);
+            Console.WriteLine("Value before swap numOne = " + numOne + ", numTwo = " + numTwo);
+            numOne = numOne * numTwo;
+            numTwo = numOne / numTwo;
+            numOne = numOne / numTwo;
+            Console.WriteLine("Value after swap numOne = " + numOne + ", numTwo = " + numTwo);
         }
     }
 }
