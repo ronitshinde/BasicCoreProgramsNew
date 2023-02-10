@@ -6,19 +6,21 @@ namespace BasicsCorePrograms
     {
         public void Harmonic()
         {
-            int i, n;
-            double s = 0;
+            int i, num;
+            float sum = 0;
+            //float fraction = 0;
             Console.WriteLine("Calculate the harmonic series and their sum: ");
             Console.Write("\n");
             Console.WriteLine("Input the number of terms : ");
-
-            n = Convert.ToInt32(Console.ReadLine());
-            for (i = 1; i <= n; i++)
+            
+            num = Convert.ToInt32(Console.ReadLine());
+            for (i = 1; i <= num; i++)
             {
                 Console.Write("1/{0} + ", i);
-                s += 1 / (float)i;
+                //fraction = ;
+                sum += 1 / (float)i;
             }
-            Console.WriteLine("\nSum of Series upto {0} terms : {1} ", n, s);
+            Console.WriteLine("\nSum of Series upto {0} terms : {1} ", num, sum);
         }
     }
 }
