@@ -11,7 +11,7 @@ namespace BasicsCorePrograms
             Console.WriteLine("Calculate the harmonic series and their sum: ");
             Console.Write("\n");
             Console.WriteLine("Input the number of terms : ");
-            
+
             num = Convert.ToInt32(Console.ReadLine());
             for (i = 1; i <= num; i++)
             {
